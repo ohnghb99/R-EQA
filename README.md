@@ -9,9 +9,9 @@
 
 **CVPR 2025 EmbodiedAI workshop Accepted Paper Highlights**
 
-[paper TBD]()
+[paper](source/R-EQA.pdf)
 
-![figure](source/figure.jpg)
+![figure](source/cvprw_poster.jpg)
 </div>
 
 This source can be used for experiments with the openEQA benchmark. Please follow the setup instructions provided by openEQA.
