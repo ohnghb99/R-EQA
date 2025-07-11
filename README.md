@@ -7,7 +7,7 @@
 
 †corresponding author
 
-**CVPR 2025 EmbodiedAI workshop Accepted Paper Highlights**
+**CVPR 2025 EmbodiedAI workshop Accepted Paper Highlights ✨**
 
 [paper](source/R-EQA.pdf)
 
@@ -103,7 +103,7 @@ Arjun Majumdar*, Anurag Ajay*, Xiaohan Zhang*, Pranav Putta, Sriram Yenamandra, 
 
 Once the openEQA setup is complete, including ScanNet and HM3D, you can run the pipeline as follows:
 
-# setup
+# Setup for Inference
 First, generate image captions and embeddings for all frames.
 (Note: The arguments should be adjusted according to the user’s needs. And this step may take a significant amount of time, as it involves captioning every frame.)
 
@@ -116,7 +116,7 @@ python extract_emb.py
 
 ```
 
-# inference
+# Inference
 Second, embed each question from `data/open-eqa-v0.json` and compute the cosine similarity with the embeddings of the episode history.
 
 Finally, convert the top-3 most similar captions into natural language and parse them as in-context examples for the LLM input prompt.
